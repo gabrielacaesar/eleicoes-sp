@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SP: eleições</title>
+	<meta name="author" content="Gabriela Caesar">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="keywords" content="eleições, eleição, candidatos, presidente, presidência, política, resultado eleitoral">
+	<meta name="description" content="Entendendo o estado de SP nas eleições presidenciais">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet'/>
+</head>
+<body>
+
+<div id="map"></div>
+	<main class="gatilhos">
+		<!-- HOME -->
+		<section data-local="home">
+			<div class="box-title flex">
+				<h1 class="font-style">ELEIÇÕES SP</h1>
+			</div>
+			<div class="box-text flex">
+				<h2 class="font-style">gabriela caesar</h2>
+				<p class="font-style orientacao">orientacao: tiago maranhao e vinicius sueiro</p>
+			</div>
+		</section>
+		<!-- UF -->
+		<section data-local="UF">
+			<div class="box-title flex">
+				<h3 class="font-style">SÃO PAULO</h3>
+			</div>
+			<div class="box-text flex">
+				<h4 class="font-style">Um em cada cinco eleitores do Brasil mora aqui (22,7%).<br>É o estado com mais eleitores</h4>
+			</div>
+		</section>
+		<section data-local="UF">
+			<div class="box-text flex">
+				<h4 class="font-style">Os dois principais candidatos destas eleições<br> nasceram aqui: Bolsonaro e Lula.</h4>
+			</div>
+		</section>
+		<section data-local="UF">
+			<div class="box-text flex">
+				<h4 class="font-style">Bolsonaro é de Glicério.<br>Lula, de São Bernardo do Campo.</h4>
+			</div>
+		</section>
+		<section data-local="UF">
+			<div class="box-text flex">
+				<h4 class="font-style">SP tem 645 municípios.<br>Desse total, 28 têm mais de 200 mil eleitores.</h4>
+			</div>
+		</section>
+		<section data-local="UF">
+			<div class="box-text box-list flex">
+				<ul class="font-style">
+					<li>São Paulo - xx milhões</li>
+					<li>AAA - xx milhões</li>
+					<li>BBB - xx milhões</li>
+					<li>CCC - xx milhões</li>
+					<li>DDD - xx milhões</li>
+				</ul>
+			</div>
+		</section>
+		<section data-local="UF">
+			<div class="box-text flex">
+				<h4 class="font-style">Mais de 25 milhões de pessoas<br> votaram em SP em cada turno de 2018.</h4>
+			</div>
+		</section>
+	  	<section data-local="UF">
+			<div class="box-title-chart flex">
+				<h3 class="font-style">SÃO PAULO</h3>
+				<p class="font-style round-year">1º turno | 2018 | estado</p>
+			</div>
+			<div class="box-chart-css flex">
+				<div class="candidato flex">
+					<div class="chart-candidato flex">
+						<p class="percentual-candidato">53%</p>
+						<span class="barra-Bolsonaro_1turno-2018-SP barra barra-green"></span>
+					</div>
+					<div class="foto-candidato flex">
+						<img src="img/icon/jair-bolsonaro.jpeg">
+						<figcaption class="nome-candidato">Jair Bolsonaro</figcaption>
+					</div>
+				</div>
+				<div class="candidato flex">
+					<div class="chart-candidato flex">
+						<p class="percentual-candidato">16,42%</p>
+						<span class="barra-Haddad_1turno-2018-SP barra barra-red"></span>
+					</div>
+					<div class="foto-candidato flex">
+						<img src="img/icon/fernando-haddad.jpeg">
+						<figcaption class="nome-candidato">Fernando Haddad</figcaption>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section data-local="UF">
+			<div class="box-title-chart flex">
+				<h3 class="font-style">SÃO PAULO</h3>
+				<p class="font-style round-year">2º turno | 2018 | estado</p>
+			</div>
+			<div class="box-chart-css flex">
+				<div class="candidato flex">
+					<div class="chart-candidato flex">
+						<p class="percentual-candidato">67,97%</p>
+						<span class="barra-Bolsonaro_2turno-2018-SP barra barra-green"></span>
+					</div>
+					<div class="foto-candidato flex">
+						<img src="img/icon/jair-bolsonaro.jpeg">
+						<figcaption class="nome-candidato">Jair Bolsonaro</figcaption>
+					</div>
+				</div>
+				<div class="candidato flex">
+					<div class="chart-candidato flex">
+						<p class="percentual-candidato">32,03%</p>
+						<span class="barra-Haddad_2turno-2018-SP barra barra-red"></span>
+					</div>
+					<div class="foto-candidato flex">
+						<img src="img/icon/fernando-haddad.jpeg">
+						<figcaption class="nome-candidato">Fernando Haddad</figcaption>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- SALTINHO -->
+		<section data-local="saltinho">
+			<div class="box-title flex">
+				<h3 class="font-style">SALTINHO (SP)</h3>
+			</div>
+			<div class="box-text flex">
+				<h4 class="font-style">Esta foi a cidade mais bolsonarista no estado de São Paulo no primeiro turno das eleições de 2018.</h4>
+			</div>
+		</section>
+			  	<section data-local="saltinho">
+			<div class="box-title-chart flex">
+				<h3 class="font-style">SÃO PAULO</h3>
+				<p class="font-style round-year">1º turno | 2018 | Saltinho (SP)</p>
+			</div>
+			<div class="box-chart-css flex">
+				<div class="candidato flex">
+					<div class="chart-candidato flex">
+						<p class="percentual-candidato">77,25%</p>
+						<span class="barra-Bolsonaro_1turno-2018-saltinho barra barra-green"></span>
+					</div>
+					<div class="foto-candidato flex">
+						<img src="img/icon/jair-bolsonaro.jpeg">
+						<figcaption class="nome-candidato">Jair Bolsonaro</figcaption>
+					</div>
+				</div>
+				<div class="candidato flex">
+					<div class="chart-candidato flex">
+						<p class="percentual-candidato">3,63%</p>
+						<span class="barra-Haddad_1turno-2018-saltinho barra barra-red"></span>
+					</div>
+					<div class="foto-candidato flex">
+						<img src="img/icon/fernando-haddad.jpeg">
+						<figcaption class="nome-candidato">Fernando Haddad</figcaption>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- CAPITAL -->
+		<section data-local="capital">
+			<div class="box-title-chart flex">
+				<h3 class="font-style">SÃO PAULO</h3>
+				<p class="font-style round-year">2º turno | 2018 | capital</p>
+			</div>
+			<div class="box-chart-css flex">
+				<div class="candidato flex">
+					<div class="chart-candidato flex">
+						<p class="percentual-candidato">xxx%</p>
+						<span class="barra-Bolsonaro_2turno-2018-SP barra barra-green"></span>
+					</div>
+					<div class="foto-candidato flex">
+						<img src="img/icon/jair-bolsonaro.jpeg">
+						<figcaption class="nome-candidato">Jair Bolsonaro</figcaption>
+					</div>
+				</div>
+				<div class="candidato flex">
+					<div class="chart-candidato flex">
+						<p class="percentual-candidato">yyy%</p>
+						<span class="barra-Haddad_2turno-2018-SP barra barra-red"></span>
+					</div>
+					<div class="foto-candidato flex">
+						<img src="img/icon/fernando-haddad.jpeg">
+						<figcaption class="nome-candidato">Fernando Haddad</figcaption>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+	<script src="script.js"></script>
+</body>
+</html>
