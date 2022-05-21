@@ -52,21 +52,24 @@ a {
 .box-title {
 	width: 100%;
 	height: 60%;
-	justify-content: start;
+	justify-content: center;
 	padding-top: 8%;
 }
 
 .box-title-chart {
 	width: 100%;
 	height: 40%;
-	justify-content: start;
+	justify-content: center;
 	padding-top: 8%;
+	flex-direction: column;
 }
 
 .box-text {
 	width: 100%;
 	height: 10%;
 	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
 
 .box-text > h4 {
@@ -75,12 +78,6 @@ a {
 
 .box-chart {
 	width: 100%;
-	justify-content: center;
-}
-
-.box-chart-css {
-	width: 100%;
-	height: 20%;
 	justify-content: center;
 }
 
@@ -95,13 +92,13 @@ h1, h3 {
 	font-family: 'Passion', sans-serif;
 }
 
-h2, h4, li, span {
+h2, h4, li, span, a {
 	font-size: 30px;
 	font-family: 'Ubuntu', sans-serif;
 }
 
 .round-year {
-	font-size: 30px;
+	font-size: 25px;
 	margin-top: 3px;
 }
 
@@ -116,7 +113,6 @@ h2, h4, li, span {
 
 .flex {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
 	flex-wrap: wrap;
 }
@@ -150,21 +146,24 @@ h2, h4, li, span {
 
 /* media queries */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	h1, h3 {
 	font-size: 35px;
 	}
 
-	h2, h4, li, span {
-		font-size: 23px;
+	h2, h4, li, span, a {
+	font-size: 23px;
 	}
 
   	ul {
     width: 85%;
   	}
 
+  	.box-text {
+  	flex-direction: row;
+  	}
   	.orientacao, .flourish-chart {
-  	width: 80%;
+  	width: 95%;
   	}
 
 }
