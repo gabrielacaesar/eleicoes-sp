@@ -1,6 +1,6 @@
 # Eleicoes em SP
 
-### Criadora do projeto: Gabriela Caesar
+### Criadora do projeto: [Gabriela Caesar](https://gabrielacaesar.com/)
 #### Orientação do Insper: Tiago Maranhão (Mapbox), Vinicius Sueiro (Javascript) e Carol Rozendo (Figma).
 
 ## Motivo
