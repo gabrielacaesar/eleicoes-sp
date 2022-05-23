@@ -4,7 +4,7 @@
 #### Orientação do Insper: Tiago Maranhão (mapbox), Rodrigo Menegat (consultoria), Vinicius Sueiro (javascript) e Carol Rozendo (figma).
 
 ### LINK
-Acesse em: [https://gabrielacaesar.github.io/eleicoes-sp/](https://gabrielacaesar.github.io/eleicoes-sp/)
+Acesse em: [https://gabrielacaesar.github.io/eleicoes-sp/](https://gabrielacaesar.github.io/eleicoes-sp/)           
 Compartilhe nas suas redes sociais!
 
 ## Motivo
