@@ -1,6 +1,9 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FicmllbGFjYWVzYXIiLCJhIjoiY2wzYnNkMTNtMGljbzNqbzE3dmw5Z2w2ZCJ9.P46AUfDHOf004qL6rCXFLw';
- 
+// map box
 
+// token
+mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FicmllbGFjYWVzYXIiLCJhIjoiY2wzYnNkMTNtMGljbzNqbzE3dmw5Z2w2ZCJ9.P46AUfDHOf004qL6rCXFLw';
+
+// gera mapa
 let map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/gabrielacaesar/cl3c7kgdh005n15pfsjmxyv1q',
@@ -10,31 +13,25 @@ let map = new mapboxgl.Map({
   scrollWheelZoom: false
 })
 
-
-/////////////
-
-// 1. criar uma função para verificar 
-// se o gatilho chegou ao topo da página
+// funcao para scrollar a cada section
+// e considerar o data-local do html
+// para o mapbox
 function escutaScroll(event){
-    // A função deve...
-    // Pegar a lista de gatilhos
+    // define variavel com base no html; sao section apos .gatilhos
     let gatilhos = document.querySelectorAll(".gatilhos > section");
 
-    // A função deve...
-    // Fazer loop pela lista de gatilhos
+    // executa acao para cada section captura pela variavel
     for(let gatilho of gatilhos){
-        // Para cada um deles, pegar a posição atual
+        // pega a posição atual
         let posicao = gatilho.getBoundingClientRect();
-        // Para cada um deles, pegar o valor da propriedade data-alvo
+        // pega o valor da propriedade data-local
         let local = gatilho.dataset.local;
 
         
-        // Verificar se o gatilho está acima do topo da página
+        // verifica se o gatilho está acima do topo da página
+        // dependendo do data-local executa orientacoes do mapbox
         if(posicao.top <= 0 && posicao.top > -posicao.height){
           if(local == "UF"){
-              // se sim, adiciona a classe que exibe o gráfico
-              // posicao.classList.add('passo-ativo');
-              // posicao.style.display = 'flex'
               map.flyTo({
                 center: [-48, -22], // estado de sp
                 zoom: 6,
@@ -66,7 +63,7 @@ function escutaScroll(event){
           }
           else if(local == "lins"){
             map.flyTo({
-              center: [-49.7196, -21.6611], // birigui
+              center: [-49.7196, -21.6611], // lins
               zoom: 10,
               pitch: 64,
               bearing: 63
@@ -162,6 +159,5 @@ function escutaScroll(event){
     }
 }
 
-// 2. pedir ao navegador para escutar 
-// o evento de rolagem da página
+// browser executa rolagem da página e considera funcao acima
 window.addEventListener('scroll', escutaScroll);
