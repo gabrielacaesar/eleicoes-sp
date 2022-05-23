@@ -10,6 +10,8 @@ Compartilhe nas suas redes sociais!
 ## Motivo
 ### São Paulo é o estado mais populoso, mais rico e com grande impacto nas eleições. Além disso, os dois principais candidatos têm fortes conexões com o estado. Este ano teremos eleições presidenciais. Por isso, vamos nos debruçar nos dados, colocar uma lupa em SP e mostrar de forma dinâmica alguns insights interessantes.
 
+### O formato _scrollytelling_ foi escolhido para tornar os dados, normalmente mais duros, em algo atraente, com histórias por trás. O projeto usa mapa porque traz dinamismo e também porque cidades próximas tendem a votar parecido. Como algumas cidades são pequenas e desconhecidas, o mapa ainda facilita enxergar municípios vizinhos.
+
 ## Desenvolvimento
 ### Este projeto usa dados eleitorais das eleições presidenciais de 2018 para mostrar como o estado de SP se comportou quanto ao bolsonarismo. Para isso, inicialmente eu fiz wireframe no Figma do projeto que seria montado. Depois, eu comecei a programar o código do site.         
 
