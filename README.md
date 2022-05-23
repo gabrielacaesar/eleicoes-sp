@@ -3,6 +3,10 @@
 ### Criadora do projeto: [Gabriela Caesar](https://gabrielacaesar.com/)
 #### Orientação do Insper: Tiago Maranhão (mapbox), Rodrigo Menegat (consultoria), Vinicius Sueiro (javascript) e Carol Rozendo (figma).
 
+### LINK
+Acesse em: [https://gabrielacaesar.github.io/eleicoes-sp/](https://gabrielacaesar.github.io/eleicoes-sp/)
+Compartilhe nas suas redes sociais!
+
 ## Motivo
 ### São Paulo é o estado mais populoso, mais rico e com grande impacto nas eleições. Além disso, os dois principais candidatos têm fortes conexões com o estado. Este ano teremos eleições presidenciais. Por isso, vamos nos debruçar nos dados, colocar uma lupa em SP e mostrar de forma dinâmica alguns insights interessantes.
 
