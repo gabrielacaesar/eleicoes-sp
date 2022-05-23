@@ -29,8 +29,8 @@ Também fizemos um recorte pelas cidades com mais de 200 mil eleitores (onde pod
 - Mais bolsonarista: isso ocorre quando Bolsonaro teve maior percentual de votos válidos.
 - Menos bolsonarista: isso ocorre quando Bolsonaro teve menor percentual de votos válidos.
 
-## Falhas
-A meu ver, uma das falhas do projeto é trazer apenas dados de 2018. Acredito que seria muito interessante também mostrar o comportamento dos municípios em outras eleições. Houve alguma mudança brusca? Ou essas cidades sempre tenderam à direita? 
+## Melhorias
+A meu ver, uma das melhorias a se fazer no projeto é trazer apenas dados de 2018. Acredito que seria muito interessante também mostrar o comportamento dos municípios em outras eleições. Houve alguma mudança brusca? Ou essas cidades sempre tenderam à direita? 
 
 Além disso, também seria interessante destacar o que marca cada cidade - por exemplo, economicamente. Ou algo relevante, como o fato de ela ter um dos maiores IDHs do estado. Para esse trabalho, porém, seria necessário mais tempo.
 
